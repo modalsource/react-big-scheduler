@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {PropTypes} from 'prop-types'
-import {SummaryPos} from './index'
+import {SummaryPos} from './SummaryPos'
 
 class Summary extends Component {
     constructor(props) {

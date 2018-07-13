@@ -1,5 +1,6 @@
 import { DragSource } from 'react-dnd'
-import {ViewTypes, DATETIME_FORMAT} from './index'
+import {ViewTypes} from './ViewTypes'
+import {DATETIME_FORMAT} from './DateFormat'
 import {DnDTypes} from './DnDTypes'
 
 export default class DnDSource {

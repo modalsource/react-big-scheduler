@@ -374,7 +374,5 @@ class Scheduler extends Component {
     }
 }
 
-export const DATE_FORMAT = 'YYYY-MM-DD';
-export const DATETIME_FORMAT = 'YYYY-MM-DD HH:mm:ss';
 export {SchedulerData, ViewTypes, SummaryPos, DnDSource, DnDContext, AddMorePopover, DemoData}
 export default Scheduler

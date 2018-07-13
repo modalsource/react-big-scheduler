@@ -2,7 +2,8 @@ import moment from 'moment'
 import RRule from 'rrule';
 import config from './config'
 import behaviors from './behaviors'
-import {ViewTypes, DATE_FORMAT, DATETIME_FORMAT} from './index'
+import {ViewTypes} from './ViewTypes'
+import {DATE_FORMAT, DATETIME_FORMAT} from './DateFormat'
 
 export default class SchedulerData {
     constructor(date=moment().format(DATE_FORMAT), viewType = ViewTypes.Week,

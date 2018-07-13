@@ -1,5 +1,5 @@
 {
-  "name": "react-big-scheduler",
+  "name": "ms-react-big-scheduler",
   "version": "0.2.0",
   "description": "A scheduler and resource planning component built for React and made for modern browsers (IE10+)",
   "keywords": [
@@ -80,5 +80,9 @@
     "webpack-cli": "^2.0.14",
     "webpack-bundle-analyzer": "^2.11.1",
     "webpack-dev-server": "^3.1.1"
-  }
+  },
+  "publishConfig": {
+		"registry": "https://nexus.modalsource.com/repository/npm-private/"
+	}
+
 }

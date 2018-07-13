@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import {PropTypes} from 'prop-types'
 import AgendaEventItem from './AgendaEventItem'
-import {DATE_FORMAT} from './index'
+import {DATE_FORMAT} from './DateFormat'
 
 class AgendaResourceEvents extends Component {
     constructor(props) {

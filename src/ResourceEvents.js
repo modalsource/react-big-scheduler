@@ -3,7 +3,8 @@ import {PropTypes} from 'prop-types'
 import AddMore from './AddMore'
 import Summary from './Summary'
 import SelectedArea from './SelectedArea'
-import {ViewTypes, DATETIME_FORMAT, SummaryPos} from './index'
+import {ViewTypes} from './ViewTypes'
+import {DATETIME_FORMAT} from './DateFormat'
 import {getPos} from './Util'
 
 class ResourceEvents extends Component {
