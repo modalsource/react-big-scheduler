@@ -1,5 +1,5 @@
 import { DragSource } from 'react-dnd'
-import {ViewTypes} from './ViewTypes'
+import {ViewTypes} from './Exports'
 import {DATETIME_FORMAT} from './DateFormat'
 import {DnDTypes} from './DnDTypes'
 

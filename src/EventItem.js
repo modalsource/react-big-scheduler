@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import {PropTypes} from 'prop-types'
 import {Popover} from 'antd';
 import EventItemPopover from './EventItemPopover'
-import {ViewTypes} from './ViewTypes'
+import {ViewTypes} from './Exports'
 import {DATETIME_FORMAT} from './DateFormat'
 
 class EventItem extends Component {

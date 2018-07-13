@@ -1,4 +1,4 @@
-import {ViewTypes} from './ViewTypes'
+import {ViewTypes} from './Exports'
 
 //getSummaryFuncExample
 export const getSummary = (schedulerData, headerEvents, slotId, slotName, headerStart, headerEnd) => {

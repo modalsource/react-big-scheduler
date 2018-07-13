@@ -2,7 +2,7 @@ import moment from 'moment'
 import RRule from 'rrule';
 import config from './config'
 import behaviors from './behaviors'
-import {ViewTypes} from './ViewTypes'
+import {ViewTypes} from './Exports'
 import {DATE_FORMAT, DATETIME_FORMAT} from './DateFormat'
 
 export default class SchedulerData {

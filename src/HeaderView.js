@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {PropTypes} from 'prop-types'
-import {ViewTypes} from './ViewTypes'
+import {ViewTypes} from './Exports'
 
 
 class HeaderView extends Component {
