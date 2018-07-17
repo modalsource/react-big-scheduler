@@ -19,7 +19,7 @@ import ResourceClickable from './ResourceClickable'
 import ComingSoon from './ComingSoon'
 
 render((
-    <Router history={hashHistory}>
+    <Router history={hashHistory} >
         <Route path="/" component={Basic}/>
         <Route path="/readonly" component={Readonly}/>
         <Route path="/locale" component={Locale}/>

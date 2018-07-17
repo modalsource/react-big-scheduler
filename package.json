@@ -1,6 +1,6 @@
 {
   "name": "ms-react-big-scheduler",
-  "version": "0.2.8",
+  "version": "0.2.10",
   "description": "A scheduler and resource planning component built for React and made for modern browsers (IE10+)",
   "keywords": [
     "scheduler",
@@ -66,19 +66,20 @@
     "eslint": "5.1.0",
     "eslint-plugin-react": "7.10.0",
     "json-loader": "0.5.7",
+    "less-loader": "^4.1.0",
     "mocha": "5.2.0",
     "mocha-babel": "3.0.3",
     "node-sass": "^4.9.2",
     "react-hot-loader": "^4.3.3",
     "react-redux": "^5.0.7",
-    "react-router": "^4.3.1",
+    "react-router": "^3.0.0",
     "react-router-redux": "^4.0.8",
     "sass-loader": "7.0.3",
     "style-loader": "0.21.0",
     "url-loader": "1.0.1",
     "webpack": "^4.16.1",
-    "webpack-cli": "^3.0.8",
     "webpack-bundle-analyzer": "^2.13.1",
+    "webpack-cli": "^3.0.8",
     "webpack-dev-server": "^3.1.4"
   },
   "publishConfig": {

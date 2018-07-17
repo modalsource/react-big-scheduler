@@ -5,7 +5,7 @@ module.exports = {
   mode:'development',
   entry: {
     'basic': [
-      'webpack-dev-server/client?http://localhost:8080/',
+      'webpack-dev-server/client?http://localhost:8081/',
       'webpack/hot/only-dev-server',
       './example/bundle.js'
     ]
@@ -13,7 +13,7 @@ module.exports = {
   output: {
     path: __dirname,
     filename: "bundle.js",
-    publicPath: 'http://localhost:8080/',
+    publicPath: 'http://localhost:8081/',
     chunkFilename: '[id].chunk.js',
     sourceMapFilename: '[name].map'
   },
@@ -24,7 +24,7 @@ module.exports = {
   module: {
   rules: [
     { test: /\.jsx$|\.es6$|\.js$/, loaders: ['babel-loader'], exclude: /node_modules/ },
-    { test: /\.scss$|\.css$/, loader: 'style-loader!style-loader!css-loader!sass-loader' },
+    { test: /\.scss$|\.less$|\.css$/, loader: 'style-loader!style-loader!css-loader!sass-loader!less-loader' },
     { test: /\.(jpe?g|png|gif)$/i, loader: 'url?limit=10000!img?progressive=true' },
     { test: /\.json/, loader: 'json-loader' }
   ]},
